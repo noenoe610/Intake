@@ -1,0 +1,129 @@
+{
+  "pills": [
+    {
+      "id": "yasmin",
+      "name": "Yasmin",
+      "type": "combined",
+      "generation": "fourth",
+      "manufacturer": "Bayer",
+      "active_ingredients": ["Drospirenone", "Ethinyl Estradiol"],
+      "verification_questions": [
+        {
+          "question": "What color are the active pills in Yasmin?",
+          "options": ["Yellow", "White", "Pink", "Blue"],
+          "correct": "Yellow"
+        },
+        {
+          "question": "How many active pills are in one pack?",
+          "options": ["21", "24", "28", "30"],
+          "correct": "21"
+        },
+        {
+          "question": "What is printed on each active pill?",
+          "options": ["DO", "YZ", "28", "BAYER"],
+          "correct": "DO"
+        }
+      ]
+    },
+    {
+      "id": "yaz",
+      "name": "Yaz",
+      "type": "combined",
+      "generation": "fourth",
+      "manufacturer": "Bayer",
+      "active_ingredients": ["Drospirenone", "Ethinyl Estradiol"],
+      "verification_questions": [
+        {
+          "question": "What color are the active pills in Yaz?",
+          "options": ["Light pink", "Yellow", "White", "Blue"],
+          "correct": "Light pink"
+        },
+        {
+          "question": "How many active pills are in one pack?",
+          "options": ["21", "24", "28", "30"],
+          "correct": "24"
+        },
+        {
+          "question": "How many placebo pills are in the pack?",
+          "options": ["4", "7", "0", "2"],
+          "correct": "4"
+        }
+      ]
+    },
+    {
+      "id": "lo-loestrin-fe",
+      "name": "Lo Loestrin Fe",
+      "type": "combined",
+      "generation": "fourth",
+      "manufacturer": "Allergan",
+      "active_ingredients": ["Norethindrone Acetate", "Ethinyl Estradiol"],
+      "verification_questions": [
+        {
+          "question": "What two colors are the active pills?",
+          "options": ["Blue and white", "Pink and yellow", "White and green", "Blue and yellow"],
+          "correct": "Blue and white"
+        },
+        {
+          "question": "How many blue pills are in the pack?",
+          "options": ["24", "26", "21", "28"],
+          "correct": "26"
+        },
+        {
+          "question": "What do the brown pills contain?",
+          "options": ["Iron (ferrous fumarate)", "Placebo", "Estrogen only", "Progestin only"],
+          "correct": "Iron (ferrous fumarate)"
+        }
+      ]
+    },
+    {
+      "id": "ortho-tri-cyclen",
+      "name": "Ortho Tri-Cyclen",
+      "type": "combined",
+      "generation": "third",
+      "manufacturer": "Janssen",
+      "active_ingredients": ["Norgestimate", "Ethinyl Estradiol"],
+      "verification_questions": [
+        {
+          "question": "How many different colors of active pills are there?",
+          "options": ["1", "2", "3", "4"],
+          "correct": "3"
+        },
+        {
+          "question": "What are the three colors of active pills?",
+          "options": ["White, light blue, dark blue", "Pink, yellow, white", "Green, blue, purple", "Red, white, blue"],
+          "correct": "White, light blue, dark blue"
+        },
+        {
+          "question": "What is special about this pill pack design?",
+          "options": ["Triphasic - hormone levels change", "All pills same dose", "No placebo week", "Only 21 pills"],
+          "correct": "Triphasic - hormone levels change"
+        }
+      ]
+    },
+    {
+      "id": "microgestin",
+      "name": "Microgestin Fe",
+      "type": "combined",
+      "generation": "first",
+      "manufacturer": "Lupin",
+      "active_ingredients": ["Norethindrone Acetate", "Ethinyl Estradiol"],
+      "verification_questions": [
+        {
+          "question": "What color are the active pills?",
+          "options": ["White", "Brown", "Green", "Pink"],
+          "correct": "Brown"
+        },
+        {
+          "question": "What color are the placebo/iron pills?",
+          "options": ["Brown", "White", "Green", "Blue"],
+          "correct": "White"
+        },
+        {
+          "question": "How many days do you take active pills?",
+          "options": ["21", "24", "26", "28"],
+          "correct": "21"
+        }
+      ]
+    }
+  ]
+}

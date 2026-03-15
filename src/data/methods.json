@@ -1,0 +1,79 @@
+{
+  "methods": [
+    {
+      "id": "pills",
+      "name": "Birth Control Pills",
+      "icon": "💊",
+      "description": "Oral contraceptives taken daily",
+      "types": [
+        {
+          "id": "combined",
+          "name": "Combined Pills",
+          "description": "Contains estrogen and progestin"
+        },
+        {
+          "id": "progestin-only",
+          "name": "Progestin-Only Pills (Mini Pill)",
+          "description": "Contains only progestin, no estrogen"
+        }
+      ]
+    },
+    {
+      "id": "iud",
+      "name": "IUD",
+      "icon": "🔧",
+      "description": "Long-term intrauterine device",
+      "types": [
+        {
+          "id": "hormonal",
+          "name": "Hormonal IUD",
+          "description": "Releases progestin"
+        },
+        {
+          "id": "copper",
+          "name": "Copper IUD",
+          "description": "Non-hormonal, uses copper"
+        }
+      ]
+    },
+    {
+      "id": "implant",
+      "name": "Implant",
+      "icon": "💉",
+      "description": "Arm implant lasting 3-5 years",
+      "types": [
+        {
+          "id": "single-rod",
+          "name": "Single Rod Implant",
+          "description": "Small rod inserted under skin of upper arm"
+        }
+      ]
+    },
+    {
+      "id": "patch",
+      "name": "Patch",
+      "icon": "🩹",
+      "description": "Weekly contraceptive patch",
+      "types": [
+        {
+          "id": "transdermal",
+          "name": "Transdermal Patch",
+          "description": "Worn on skin, changed weekly"
+        }
+      ]
+    },
+    {
+      "id": "ring",
+      "name": "Vaginal Ring",
+      "icon": "⭕",
+      "description": "Monthly contraceptive ring",
+      "types": [
+        {
+          "id": "monthly",
+          "name": "Monthly Ring",
+          "description": "Flexible ring worn for 3 weeks"
+        }
+      ]
+    }
+  ]
+}

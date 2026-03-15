@@ -1,0 +1,26 @@
+{
+  "name": "Intake",
+  "short_name": "Intake",
+  "description": "Real experiences with birth control and medications, beyond the official description",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5FBF8",
+  "theme_color": "#8BC9B0",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "lifestyle", "social"],
+  "screenshots": []
+}

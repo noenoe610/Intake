@@ -1,0 +1,82 @@
+/* Design System Variables */
+:root {
+  /* Primary Brand Color: #8BC9B0 (Mint/Sage Green) */
+  --color-primary: #8BC9B0;
+  --color-primary-dark: #6BAA8F;
+  --color-primary-darker: #4A8A6E;
+  --color-primary-light: #A5D7C1;
+  --color-primary-lighter: #C0E4D3;
+  --color-primary-pale: #E0F2EB;
+  
+  /* Background colors - solid, no transparency */
+  --color-bg-primary: #F5FBF8;
+  --color-bg-white: #FFFFFF;
+  --color-bg-card: #FFFFFF;
+  
+  /* Text colors */
+  --color-text-primary: #111827;
+  --color-text-secondary: #6B7280;
+  --color-text-muted: #9CA3AF;
+  --color-text-white: #FFFFFF;
+  
+  /* Border colors - 2px solid */
+  --border-width: 2px;
+  --color-border-light: #E5E7EB;
+  --color-border-primary: var(--color-primary-dark);
+  --color-border-dark: var(--color-primary-darker);
+  
+  /* Spacing system - multiples of 4px */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  
+  /* Typography */
+  --font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", system-ui, sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px;
+  --font-size-3xl: 30px;
+  --font-size-4xl: 36px;
+  
+  /* Layout constants */
+  --top-bar-height: 56px;
+  --bottom-nav-height: 64px;
+  --bottom-nav-padding: 8px;
+  
+  /* Border radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-pill: 9999px;
+  
+  /* Shadows - no transparency, solid shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 6px 20px rgba(0, 0, 0, 0.15);
+  --shadow-xl: 0 8px 24px rgba(0, 0, 0, 0.15);
+  
+  /* Icon sizes */
+  --icon-sm: 16px;
+  --icon-md: 24px;
+  --icon-lg: 32px;
+  --icon-stroke: 2px;
+  
+  /* Z-index layers */
+  --z-bottom-nav: 100;
+  --z-top-nav: 100;
+  --z-modal: 200;
+  --z-toast: 300;
+}
