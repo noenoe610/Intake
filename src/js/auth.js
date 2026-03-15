@@ -34,19 +34,43 @@ export async function checkAuth() {
 
 // Sign up new user
 export async function signup(email, password, username) {
-  // First, check if username is taken
-  const { data: existingUser } = await supabase
+  // First, check if username is taken (FIXED VERSION)
+  const { data: existingUsers } = await supabase
     .from('profiles')
     .select('username')
-    .eq('username', username)
-    .single();
+    .eq('username', username);
   
-  if (existingUser) {
+  if (existingUsers && existingUsers.length > 0) {
     return {
       user: null,
       error: { message: 'Username already taken' }
     };
   }
+  
+  // Sign up with Supabase Auth
+  const { data, error } = await supabase.auth.signUp({
+    email,
+    password,
+    options: {
+      data: {
+        username: username
+      }
+    }
+  });
+  
+  if (error) {
+    return { user: null, error };
+  }
+  
+  if (data.user) {
+    currentUser = {
+      ...data.user,
+      username: username
+    };
+  }
+  
+  return { user: data.user, error: null };
+}
   
   // Sign up with Supabase Auth
   const { data, error } = await supabase.auth.signUp({
