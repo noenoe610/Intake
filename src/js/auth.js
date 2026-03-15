@@ -32,9 +32,9 @@ export async function checkAuth() {
   return null;
 }
 
-// Sign up new user
+// Sign up new user - FIXED VERSION
 export async function signup(email, password, username) {
-  // First, check if username is taken (FIXED VERSION)
+  // First, check if username is taken (FIXED - no .single())
   const { data: existingUsers } = await supabase
     .from('profiles')
     .select('username')
@@ -46,31 +46,6 @@ export async function signup(email, password, username) {
       error: { message: 'Username already taken' }
     };
   }
-  
-  // Sign up with Supabase Auth
-  const { data, error } = await supabase.auth.signUp({
-    email,
-    password,
-    options: {
-      data: {
-        username: username
-      }
-    }
-  });
-  
-  if (error) {
-    return { user: null, error };
-  }
-  
-  if (data.user) {
-    currentUser = {
-      ...data.user,
-      username: username
-    };
-  }
-  
-  return { user: data.user, error: null };
-}
   
   // Sign up with Supabase Auth
   const { data, error } = await supabase.auth.signUp({
